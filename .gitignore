@@ -50,3 +50,17 @@ rsconnect/
 
 # Other files
 mirr_dirs.sh
+
+# Ignore Jupyter Notebook configuration and runtime files
+.jupyter/
+.jupyter_cache/
+.jupyter/lab/user-settings/
+.jupyter/lab/workspaces/
+
+# Ignore IPython history and profile directories
+.ipython/
+.ipython/profile_default/history.sqlite
+.ipython/profile_default/log/
+
+# Ignore hidden files and directories (e.g., .DS_Store on macOS)
+.DS_Store
